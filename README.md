@@ -35,11 +35,15 @@ Highlights profitability trends
 
 # Tools Used
 Power BI
+
 DAX (Data Analysis Expressions)
+
 Data Modeling (Star Schema)
 
 # How to Use
 Open the Power BI file (.pbix)
+
 Use slicers to filter data by year, region, category, or segment
+
 Explore trends and performance metrics
 
