@@ -43,7 +43,7 @@ Key measures used:
 
 ## Dashboard Preview
 
-![Dashboard Preview](images/Dashboard_Preview.png)
+![Dashboard Preview](Images/Dashboard_Preview.png)
 
 ---
 
