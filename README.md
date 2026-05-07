@@ -1,44 +1,64 @@
-# Sales-Performance-Dashboard
-This project is a Power BI dashboard built using the Superstore dataset. It provides insights into sales performance, profitability, and trends over time.
+# Superstore Sales Dashboard
 
-# Data Model
+## Overview
+This project is a Power BI dashboard built using the Superstore dataset.
 
-A star schema was implemented to improve performance and usability:
+The dashboard provides insights into:
+- Sales performance
+- Profitability
+- Regional trends
+- Category analysis
+- Year-over-Year growth
 
-# Fact Table:
-Orders
-# Dimension Tables:
-Dim_Date
-Dim_Region
-Dim_Category
-Dim_Segment
+---
 
-Relationships were created using a many-to-one structure with single-direction filtering.
+## Data Model
+A star schema was created using:
+- Fact_Orders
+- Dim_Date
+- Dim_Region
+- Dim_Category
+- Dim_Segment
 
-# Key Measures (DAX)
-Total Sales
-Total Profit
-Profit Margin %
-Sales Last Year (LY)
-Sales Year-over-Year Growth (YoY %)
+---
 
-# Dashboard Features
-KPI cards for high-level metrics
-Sales breakdown by region, category, and segment
-Monthly sales trend analysis
-Interactive slicers for filtering
+## DAX Measures
+Key measures used:
+- Total Sales
+- Total Profit
+- Profit Margin %
+- Sales LY
+- Sales YoY %
 
-# Key Insights
-Identifies top-performing regions and categories
-Tracks sales growth over time
-Highlights profitability trends
+---
 
-# Tools Used
-Power BI
+## Dashboard Features
+- KPI Cards
+- Sales Trend Analysis
+- Regional Performance
+- Segment Breakdown
+- Interactive Slicers
 
-DAX (Data Analysis Expressions)
+---
 
-Data Modeling (Star Schema)
+## Dashboard Preview
+
+![Dashboard Preview](images/dashboard-preview.png)
+
+---
+
+## Tools Used
+- Power BI
+- DAX
+- Power Query
+- GitHub
+
+---
+
+## Files Included
+- PBIX dashboard file
+- Dataset
+- Dashboard screenshots
 
 # How to Use
 Open the Power BI file (.pbix)
